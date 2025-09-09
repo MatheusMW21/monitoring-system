@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MonitoringSystem.API.Services;
+using MonitoringSystem.Services;
 using MonitoringSystem.Domain.Entities;
 
 namespace MonitoringSystem.API.Controllers

@@ -1,10 +1,12 @@
 /home/wirtz/code/monitoring-system/MonitoringSystem.Domain/bin/Debug/net9.0/MonitoringSystem.Domain.deps.json
 /home/wirtz/code/monitoring-system/MonitoringSystem.Domain/bin/Debug/net9.0/MonitoringSystem.Domain.dll
 /home/wirtz/code/monitoring-system/MonitoringSystem.Domain/bin/Debug/net9.0/MonitoringSystem.Domain.pdb
+/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/obj/Debug/net9.0/MonitoringSystem.Domain.csproj.AssemblyReference.cache
 /home/wirtz/code/monitoring-system/MonitoringSystem.Domain/obj/Debug/net9.0/MonitoringSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /home/wirtz/code/monitoring-system/MonitoringSystem.Domain/obj/Debug/net9.0/MonitoringSystem.Domain.AssemblyInfoInputs.cache
 /home/wirtz/code/monitoring-system/MonitoringSystem.Domain/obj/Debug/net9.0/MonitoringSystem.Domain.AssemblyInfo.cs
 /home/wirtz/code/monitoring-system/MonitoringSystem.Domain/obj/Debug/net9.0/MonitoringSystem.Domain.csproj.CoreCompileInputs.cache
+/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/obj/Debug/net9.0/MonitoringSystem.Domain.sourcelink.json
 /home/wirtz/code/monitoring-system/MonitoringSystem.Domain/obj/Debug/net9.0/MonitoringSystem.Domain.dll
 /home/wirtz/code/monitoring-system/MonitoringSystem.Domain/obj/Debug/net9.0/refint/MonitoringSystem.Domain.dll
 /home/wirtz/code/monitoring-system/MonitoringSystem.Domain/obj/Debug/net9.0/MonitoringSystem.Domain.pdb

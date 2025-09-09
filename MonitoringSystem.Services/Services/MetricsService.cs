@@ -2,10 +2,8 @@ using MonitoringSystem.Data;
 using MonitoringSystem.Domain.Entities;
 using MonitoringSystem.Shared.Notifications;
 using Microsoft.EntityFrameworkCore;
-using MonitoringSystem.API.DTOs;
-using Microsoft.VisualBasic;
 
-namespace MonitoringSystem.API.Services;
+namespace MonitoringSystem.Services;
 
 public class MetricsService
 {
@@ -16,7 +14,7 @@ public class MetricsService
         _context = context;
     }
 
-    internal async Task AddMetricAsync(Metric metric)
+    public async Task AddMetricAsync(Metric metric)
     {
         metric.Id = Guid.NewGuid();
         metric.Timestamp = DateTime.UtcNow;
@@ -25,7 +23,7 @@ public class MetricsService
         await _context.SaveChangesAsync();
     }
 
-    internal async Task<List<Metric>> GetMetricsAsync(string source = null)
+    public async Task<List<Metric>> GetMetricsAsync(string source = null)
     {
         var query = _context.Metrics.AsQueryable();
 

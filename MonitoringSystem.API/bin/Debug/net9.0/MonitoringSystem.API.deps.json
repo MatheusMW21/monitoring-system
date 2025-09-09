@@ -16,6 +16,7 @@
           "Microsoft.Extensions.Hosting": "9.0.8",
           "MonitoringSystem.Data": "1.0.0",
           "MonitoringSystem.Domain": "1.0.0",
+          "MonitoringSystem.Services": "1.0.0",
           "MonitoringSystem.Shared": "1.0.0"
         },
         "runtime": {
@@ -1248,6 +1249,11 @@
         }
       },
       "MonitoringSystem.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8",
+          "MonitoringSystem.Domain": "1.0.0",
+          "MonitoringSystem.Shared": "1.0.0"
+        },
         "runtime": {
           "MonitoringSystem.Data.dll": {
             "assemblyVersion": "1.0.0",
@@ -1256,6 +1262,9 @@
         }
       },
       "MonitoringSystem.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8"
+        },
         "runtime": {
           "MonitoringSystem.Domain.dll": {
             "assemblyVersion": "1.0.0",
@@ -1263,8 +1272,22 @@
           }
         }
       },
+      "MonitoringSystem.Services/1.0.0": {
+        "dependencies": {
+          "MonitoringSystem.Data": "1.0.0",
+          "MonitoringSystem.Domain": "1.0.0",
+          "MonitoringSystem.Shared": "1.0.0"
+        },
+        "runtime": {
+          "MonitoringSystem.Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "MonitoringSystem.Shared/1.0.0": {
         "dependencies": {
+          "MonitoringSystem.Domain": "1.0.0",
           "SendGrid": "9.29.3",
           "Twilio": "7.13.0"
         },
@@ -2157,6 +2180,11 @@
       "sha512": ""
     },
     "MonitoringSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MonitoringSystem.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

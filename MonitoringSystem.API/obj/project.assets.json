@@ -2256,7 +2256,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8"
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8",
+          "MonitoringSystem.Domain": "1.0.0",
+          "MonitoringSystem.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MonitoringSystem.Data.dll": {}
@@ -2278,10 +2280,26 @@
           "bin/placeholder/MonitoringSystem.Domain.dll": {}
         }
       },
+      "MonitoringSystem.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MonitoringSystem.Data": "1.0.0",
+          "MonitoringSystem.Domain": "1.0.0",
+          "MonitoringSystem.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MonitoringSystem.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MonitoringSystem.Services.dll": {}
+        }
+      },
       "MonitoringSystem.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "MonitoringSystem.Domain": "1.0.0",
           "SendGrid": "9.29.3",
           "Twilio": "7.13.0"
         },
@@ -6076,6 +6094,11 @@
       "path": "../MonitoringSystem.Domain/MonitoringSystem.Domain.csproj",
       "msbuildProject": "../MonitoringSystem.Domain/MonitoringSystem.Domain.csproj"
     },
+    "MonitoringSystem.Services/1.0.0": {
+      "type": "project",
+      "path": "../MonitoringSystem.Services/MonitoringSystem.Services.csproj",
+      "msbuildProject": "../MonitoringSystem.Services/MonitoringSystem.Services.csproj"
+    },
     "MonitoringSystem.Shared/1.0.0": {
       "type": "project",
       "path": "../MonitoringSystem.Shared/MonitoringSystem.Shared.csproj",
@@ -6092,6 +6115,7 @@
       "Microsoft.Extensions.Hosting >= 9.0.8",
       "MonitoringSystem.Data >= 1.0.0",
       "MonitoringSystem.Domain >= 1.0.0",
+      "MonitoringSystem.Services >= 1.0.0",
       "MonitoringSystem.Shared >= 1.0.0"
     ]
   },
@@ -6125,6 +6149,9 @@
             },
             "/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/MonitoringSystem.Domain.csproj": {
               "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/MonitoringSystem.Domain.csproj"
+            },
+            "/home/wirtz/code/monitoring-system/MonitoringSystem.Services/MonitoringSystem.Services.csproj": {
+              "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Services/MonitoringSystem.Services.csproj"
             },
             "/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/MonitoringSystem.Shared.csproj": {
               "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/MonitoringSystem.Shared.csproj"

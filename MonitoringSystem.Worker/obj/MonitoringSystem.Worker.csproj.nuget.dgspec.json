@@ -25,7 +25,14 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/MonitoringSystem.Domain.csproj": {
+                "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/MonitoringSystem.Domain.csproj"
+              },
+              "/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/MonitoringSystem.Shared.csproj": {
+                "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/MonitoringSystem.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -146,6 +153,81 @@
         }
       }
     },
+    "/home/wirtz/code/monitoring-system/MonitoringSystem.Services/MonitoringSystem.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wirtz/code/monitoring-system/MonitoringSystem.Services/MonitoringSystem.Services.csproj",
+        "projectName": "MonitoringSystem.Services",
+        "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Services/MonitoringSystem.Services.csproj",
+        "packagesPath": "/home/wirtz/.nuget/packages/",
+        "outputPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wirtz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/wirtz/code/monitoring-system/MonitoringSystem.Data/MonitoringSystem.Data.csproj": {
+                "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Data/MonitoringSystem.Data.csproj"
+              },
+              "/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/MonitoringSystem.Domain.csproj": {
+                "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/MonitoringSystem.Domain.csproj"
+              },
+              "/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/MonitoringSystem.Shared.csproj": {
+                "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/MonitoringSystem.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.8, 9.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/MonitoringSystem.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -167,7 +249,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/MonitoringSystem.Domain.csproj": {
+                "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/MonitoringSystem.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -248,6 +334,9 @@
               },
               "/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/MonitoringSystem.Domain.csproj": {
                 "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Domain/MonitoringSystem.Domain.csproj"
+              },
+              "/home/wirtz/code/monitoring-system/MonitoringSystem.Services/MonitoringSystem.Services.csproj": {
+                "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Services/MonitoringSystem.Services.csproj"
               },
               "/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/MonitoringSystem.Shared.csproj": {
                 "projectPath": "/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/MonitoringSystem.Shared.csproj"

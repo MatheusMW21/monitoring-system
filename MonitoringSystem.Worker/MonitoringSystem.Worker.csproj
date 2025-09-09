@@ -17,5 +17,6 @@
     <ProjectReference Include="..\MonitoringSystem.Domain\MonitoringSystem.Domain.csproj" />
     <ProjectReference Include="..\MonitoringSystem.Data\MonitoringSystem.Data.csproj" />
     <ProjectReference Include="..\MonitoringSystem.Shared\MonitoringSystem.Shared.csproj" />
+    <ProjectReference Include="..\MonitoringSystem.Services\MonitoringSystem.Services.csproj" />
   </ItemGroup>
 </Project>

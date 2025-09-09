@@ -1,11 +1,12 @@
 using System;
+using Microsoft.EntityFrameworkCore;
 using MonitoringSystem.Data;
 using MonitoringSystem.Domain.Entities;
 using MonitoringSystem.Domain.Enums;
 using MonitoringSystem.Shared.Notifications;
 
 
-namespace MonitoringSystem.API.Services;
+namespace MonitoringSystem.Services;
 
 public class AlertsService
 {

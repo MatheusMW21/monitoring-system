@@ -1,5 +1,5 @@
-using System;
-using MonitoringSystem.Domain.Entities;
+using MonitoringSystem.Domain.Entities;  // precisa estar exatamente assim
+using MonitoringSystem.Domain.Enums;     // se usar enums do Domain
 
 
 namespace MonitoringSystem.Shared.Notifications;
