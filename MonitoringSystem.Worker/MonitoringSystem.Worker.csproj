@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-MonitoringSystem.Worker-7ae5b0c2-e3fd-48f9-8d67-946bb42f93ad</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MonitoringSystem.Domain\MonitoringSystem.Domain.csproj" />
+    <ProjectReference Include="..\MonitoringSystem.Data\MonitoringSystem.Data.csproj" />
+    <ProjectReference Include="..\MonitoringSystem.Shared\MonitoringSystem.Shared.csproj" />
+  </ItemGroup>
+</Project>

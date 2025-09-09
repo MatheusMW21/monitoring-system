@@ -1,0 +1,12 @@
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/bin/Debug/net9.0/MonitoringSystem.Shared.deps.json
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/bin/Debug/net9.0/MonitoringSystem.Shared.dll
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/bin/Debug/net9.0/MonitoringSystem.Shared.pdb
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/obj/Debug/net9.0/MonitoringSystem.Shared.csproj.AssemblyReference.cache
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/obj/Debug/net9.0/MonitoringSystem.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/obj/Debug/net9.0/MonitoringSystem.Shared.AssemblyInfoInputs.cache
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/obj/Debug/net9.0/MonitoringSystem.Shared.AssemblyInfo.cs
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/obj/Debug/net9.0/MonitoringSystem.Shared.csproj.CoreCompileInputs.cache
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/obj/Debug/net9.0/MonitoringSystem.Shared.dll
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/obj/Debug/net9.0/refint/MonitoringSystem.Shared.dll
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/obj/Debug/net9.0/MonitoringSystem.Shared.pdb
+/home/wirtz/code/monitoring-system/MonitoringSystem.Shared/obj/Debug/net9.0/ref/MonitoringSystem.Shared.dll
